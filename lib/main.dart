@@ -11,7 +11,7 @@ class NotesApp extends StatelessWidget {
       retrun MaterialApp(
         theme: ThemeData(
           brightness: Brightness.dark
-        ),
+        ), 
         home: Scaffold(),
     );
         
