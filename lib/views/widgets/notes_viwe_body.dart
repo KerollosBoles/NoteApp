@@ -6,7 +6,10 @@ class NoteViewBody extends StatelessWidget{
   @override
   Widget build(BuildContext context)
    return Column(
-    children: [
+    children: const [
+      SizedBox(
+        height:50,
+      )
           CustomAppBar()
     ],
    ); //Colum 
