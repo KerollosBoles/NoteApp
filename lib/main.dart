@@ -9,7 +9,9 @@ class NotesApp extends StatelessWidget {
   @override
   Widget build(BuildContext context){
       retrun MaterialApp(
-        theme: ThemeData.Dark(),
+        theme: ThemeData(
+          brightness: Brightness.dark
+        ),
         home: Scaffold(),
     );
         
