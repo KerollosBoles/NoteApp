@@ -6,4 +6,8 @@ void mian() {
 
 class NotesApp extends StatelessWidget {
   const NotesApp((Key? key)) : super(key: key);
+  @override
+  Widget build(BuildContext context){
+      retrun Container();
+  }
 }
