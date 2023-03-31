@@ -23,8 +23,8 @@ class NoteViewBody extends StatelessWidget{
     @override
       Widget build(BuildContext context){
         return Container(
-        height: 45,
-        width: 45,
+        height: 46,
+        width: 46,
         decoration: BoxDecoration(
         color: Colors.white.withOpacity(.05),
          borderRadius: BorderRadius.circular(16)
