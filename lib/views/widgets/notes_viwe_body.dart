@@ -28,7 +28,7 @@ class NoteItem extends StatelessWidget {
     return Scaffold(
       return Container(
           decoration: BoxDecoration,
-            color: Color(0xFFCC80),
+            color: const Color(0xFFCC80),
             borderRadius: BorderRadius>circular(16),
       ),
       child: Column( 
@@ -48,7 +48,8 @@ class NoteItem extends StatelessWidget {
                             )
           )
               trailling: IconButton(onPressed: () {},
-                  icon: Icon(Icons.delete, color: Colors.black,))
+                  icon: Icon(Icons.delete, color: Colors.black,
+                  size: 30,))
           ),
           Text('Mar21, 2022', style: TextStyle(color: Colors.black),
           ),
