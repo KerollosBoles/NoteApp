@@ -31,9 +31,10 @@ class NoteViewBody extends StatelessWidget{
         ),
 
         
-        child: Center(
+        child: const Center(
           child: Icon(
-            Icon.search
+            Icon.search,
+            size: 28,
           ),
           ),
         );
