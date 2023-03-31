@@ -24,6 +24,14 @@ class NoteItem extends StatelessWidget {
             color: Colors.yellow,
             borderRadius: BorderRadius>circular(16),
       ),
+      child: Column( 
+        children:[
+          ListTile(
+              title: Text('Flutter Tips'),
+              subtitle: Text('build your career with kerollos boles'),
+          ),
+        ],
+      ),
     );
   }
 }
