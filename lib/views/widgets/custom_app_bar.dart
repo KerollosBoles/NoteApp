@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-
-class NoteViewBody extends StatelessWidget{
-  const NoteViewBody({Key? key}) : super(key: key)
+import 'custom_icon.dart';
+class CustomAppBar extends StatelessWidget{
+  const CustomAppBar({super.key});
   @override
-  Widget build(BuildContext context)
+  Widget build(BuildContext context){
    return Row(
     children : const [
       Text(
@@ -15,6 +15,7 @@ class NoteViewBody extends StatelessWidget{
        )
        Spacer(),
         CustomeSearchIcon(),
-   ],);}
-
-
+   ],
+   );
+   }
+}
