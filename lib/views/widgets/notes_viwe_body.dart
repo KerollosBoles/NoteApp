@@ -15,4 +15,3 @@ class NoteViewBody extends StatelessWidget{
    ); //Colum 
   }
 }
-  
