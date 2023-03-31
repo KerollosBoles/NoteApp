@@ -28,7 +28,7 @@ class NoteItem extends StatelessWidget {
     return Scaffold(
       return Container(
           decoration: BoxDecoration,
-            color: Colors.yellow,
+            color: Color(0xFFCC80),
             borderRadius: BorderRadius>circular(16),
       ),
       child: Column( 
