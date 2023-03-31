@@ -22,7 +22,10 @@ class NoteViewBody extends StatelessWidget{
     @override
       Widget build(BuildContext context){
         return Container(
-        height: CustomeSearchIcon,   
-        );
+        height: 45,
+        width: 45,
+        color: Colors.white,
+
+        ),
   }
 }
