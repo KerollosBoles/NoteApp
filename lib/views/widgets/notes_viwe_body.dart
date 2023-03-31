@@ -25,8 +25,8 @@ class NoteItem extends StatelessWidget {
   const NoteItem({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
       return Container(
+        padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16):
           decoration: BoxDecoration,
             color: const Color(0xFFCC80),
             borderRadius: BorderRadius>circular(16),
