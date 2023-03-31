@@ -43,7 +43,7 @@ class NoteItem extends StatelessWidget {
                 ),
               subtitle: Text('build your career with kerollos boles'
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.black.withOpacity(.5)
                                 fontSize: 20,
                             )
           )
