@@ -13,7 +13,9 @@ class NoteViewBody extends StatelessWidget{
               height:50,
             ),
                 CustomAppBar(),
-                NoteItem(),
+                Expanded(
+                  child: 
+                )
           ],
           ),
         ); //Colum 
@@ -57,11 +59,6 @@ class NoteItem extends StatelessWidget {
                 style: TextStyle, 
               color: Colors.black.withOpacity(.5),
             ),
-            CustomAppBar(),
-            Expanded(
-            child: 
-              ]
-            )
           ),
         ],
       ),
