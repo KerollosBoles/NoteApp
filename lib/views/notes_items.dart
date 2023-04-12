@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+import 'package:notesapp/view/notes_item.dart';
 class NoteItem extends StatelessWidget {
   const NoteItem({Key? key}) : super(key: key);
   @override

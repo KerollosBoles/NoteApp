@@ -13,7 +13,7 @@ class NoteViewBody extends StatelessWidget{
               height:50,
             ),
                 CustomAppBar(),
-                NoteViewBody(),
+                SizedBox(height:100 , child: NoteViewBody()),
           ],
           ),
         ); //Colum 
