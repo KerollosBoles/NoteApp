@@ -59,11 +59,7 @@ class NoteItem extends StatelessWidget {
             ),
             CustomAppBar(),
             Expanded(
-            child: ListView(
-              children: [ 
-                NoteItem(),
-                NoteItem(),
-                NoteItem() 
+            child: 
               ]
             )
           ),
