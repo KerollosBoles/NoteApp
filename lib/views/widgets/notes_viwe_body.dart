@@ -57,6 +57,15 @@ class NoteItem extends StatelessWidget {
                 style: TextStyle, 
               color: Colors.black.withOpacity(.5),
             ),
+            CustomAppBar(),
+            Expanded(
+            child: ListView(
+              children: [ 
+                NoteItem(),
+                NoteItem(),
+                NoteItem() 
+              ]
+            )
           ),
         ],
       ),
