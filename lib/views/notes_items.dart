@@ -16,7 +16,7 @@ class NoteItem extends StatelessWidget {
                 'Flutter Tips',
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 26,
+                  fontSize: 18,
                 )
                 ),
               subtitle: Text('build your career with kerollos boles'
