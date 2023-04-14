@@ -8,10 +8,11 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      cursorColor: ,
       decoration: InputDecoration(
         border: buildborder(),
         enabledBorder: buildborder(),
-        focusedBorder: buildborder(const Color(0xff62fCD7)), 
+        focusedBorder: buildborder(), 
       ) 
     );
   }
