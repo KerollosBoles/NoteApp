@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notesapp/constants.dart';
 import 'package:notesapp/views/widgets/custom_text_field.dart';
 
 class AddNoteBottomSheet extends StatelessWidget {
@@ -35,6 +36,12 @@ class CustomBottom extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: 55,
+      decoration: BoxDecoration(
+        color: kPrimaryColor,
+        borderRadius: BorderRadius.circular(
+          8,
+      )
+      ),
       child: const Center(
         child: Text('Save'),
       )
