@@ -34,6 +34,10 @@ class CustomBottom extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width,
+      height: 55,
+      child: const Center(
+        child: Text('Save'),
+      )
     );
   }
 }
