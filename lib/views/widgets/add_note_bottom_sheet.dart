@@ -44,7 +44,15 @@ class CustomBottom extends StatelessWidget {
       )
       ),
       child: const Center(
-        child: Text('Save'),
+        child: Text(
+          'Add',
+          color: TextStyle(
+            color: Colors.black,
+            fontStyle: 18,
+            fontWeight: FontWeight.bold,
+          )
+          
+          ),
       )
     );
   }
