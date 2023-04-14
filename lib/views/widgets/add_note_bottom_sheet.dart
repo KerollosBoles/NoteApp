@@ -23,7 +23,6 @@ class AddNoteBottomSheet extends StatelessWidget {
               hint: 'Content',
               maxLines: 5,
             ),
-            Spacer(),
             CustomBottom(),
             SizedBox(
               height: 16,
