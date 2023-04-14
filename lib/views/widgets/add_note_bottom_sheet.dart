@@ -48,7 +48,7 @@ class CustomBottom extends StatelessWidget {
           'Add',
           color: TextStyle(
             color: Colors.black,
-            fontStyle: 18,
+            fontStyle: 20,
             fontWeight: FontWeight.bold,
           )
           
