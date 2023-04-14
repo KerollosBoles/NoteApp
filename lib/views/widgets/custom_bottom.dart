@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../constants.dart';
+
 class CustomBottom extends StatelessWidget {
   const CustomBottom({super.key});
 
@@ -15,7 +17,7 @@ class CustomBottom extends StatelessWidget {
             )),
         child: const Center(
           child: Text('Add',
-              color: TextStyle(
+              style: TextStyle(
                 color: Colors.black,
                 fontStyle: 20,
                 fontWeight: FontWeight.bold,
