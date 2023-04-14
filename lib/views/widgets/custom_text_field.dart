@@ -11,17 +11,18 @@ class CustomTextField extends StatelessWidget {
       decoration: InputDecoration(
         border: buildborder(),
         enabledBorder: buildborder(),
+        focusedBorder: buildborder(const Color(0xff62fCD7)), 
       ) 
     );
   }
 
-  OutlineInputBorder buildborder() {
+  OutlineInputBorder buildborder([color]) {
     return OutlineInputBorder(
         borderRadius: BorderRadius.circular(  
           8,
         )
         borderSide: BorderSide(
-          color: Colors.white)
+          color: color ?? Colors.white)
       );
   }
 }
