@@ -6,10 +6,12 @@ class AddNoteBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
+    return Padding(
+        padding: EdgeInsets.symmetric(horizontal: 16),
+        child:Column(children: [
         CustomTextField(),
       ],
+      
     );
   }
 }
