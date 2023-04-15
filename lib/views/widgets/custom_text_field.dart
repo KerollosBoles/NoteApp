@@ -4,7 +4,8 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:notesapp/constants.dart';
 
 class CustomTextField extends StatelessWidget {
-  const CustomTextField({super.key,  required this.hnit, this.maxLines=1} );
+  const CustomTextField({super.key,  required this.hnit, 
+  this.maxLines=1, required this.hint} );
 final String hint;
 final int maxLines;
   @override
