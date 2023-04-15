@@ -5,8 +5,8 @@ final IconData icon;
       @override
         Widget build(BuildContext context){
         return Container(
-        height: 46,
-        width: 46,
+        height: 47,
+        width: 47,
         decoration: BoxDecoration(
         color: Colors.white.withOpacity(.05),
          borderRadius: BorderRadius.circular(16)),
@@ -15,7 +15,7 @@ final IconData icon;
           onPressed: () {},
         icon: Icon(
             Icon,
-            size: 28,
+            size: 30,
           ),
           ),
         );
